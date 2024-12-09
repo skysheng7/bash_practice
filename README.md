@@ -1,10 +1,11 @@
 ## Building a Data Analysis pipeline using a shell script tutorial
+
 adapted from [Software Carpentry](http://software-carpentry.org/)
 
 This example data analysis project analyzes the word count for all words in 4
 novels. It reports the top 10 most occurring words in each book in a [report](doc/count_report.qmd).
 
-### Current usage:
+### Current usage
 
 #### Set-up (first time only)
 
@@ -16,7 +17,7 @@ novels. It reports the top 10 most occurring words in each book in a [report](do
 conda-lock install --name da-pipeline-sh conda-lock.yml
 ```
 
-#### Run the analysis 
+#### Run the analysis
 
 Activate the conda environment:
 
@@ -64,7 +65,7 @@ Render the report:
 quarto render report/count_report.qmd
 ```
 
-### Exercise:
+### Exercise
 
 Your task is to add a data analysis pipeline using a shell/bash script!
 It should accomplish the same task as outlined in the README.md file when you type:
@@ -74,8 +75,9 @@ bash runall.sh
 ```
 
 ### Depenedencies
+
 - Quarto
 - Python & Python libraries:
-    - `click`
-    - `matplotlib`
-    - `pandas`
+  - `click`
+  - `matplotlib`
+  - `pandas`
